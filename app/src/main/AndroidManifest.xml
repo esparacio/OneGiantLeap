@@ -27,13 +27,19 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".CreateNewGame"
-            android:label="@string/title_activity_create_new_game" />
+            android:label="@string/title_activity_create_new_game"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".GameStory1"
-            android:label="@string/title_activity_game_story1" />
+            android:label="@string/title_activity_game_story1"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".LoadGame"
-            android:label="@string/title_activity_load_game"></activity>
+            android:label="@string/title_activity_load_game"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".YouDied"
+            android:label="@string/title_activity_you_died"></activity>
     </application>
 
 </manifest>

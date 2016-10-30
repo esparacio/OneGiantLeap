@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,6 +7,52 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="edu.elon.elena.onegiantleap.LoadGame">
+    tools:context="edu.elon.elena.onegiantleap.LoadGame"
+    android:background="@drawable/level1">
 
-</RelativeLayout>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/buttonup"
+        android:onClick="launchUp"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="-100dp"
+        android:background="@drawable/buttondown"
+        android:onClick="launchDown"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="-175dp"
+        android:background="@drawable/buttonleft"
+        android:onClick="launchLeft"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/buttonright"
+        android:onClick="launchRight"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="260dp"
+        android:background="@drawable/buttonscroll"
+        android:onClick="launchScrollUp"
+        />
+
+</LinearLayout>
