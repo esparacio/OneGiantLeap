@@ -36,7 +36,7 @@ public class CreateNewGame extends Activity {
         prefs.setAll(name, color, level, context);
 
         //Launch new game
-        Intent intent = new Intent(this, GameStory1.class);
+        Intent intent = new Intent(this, GameStory.class);
         startActivity(intent);
     }
 

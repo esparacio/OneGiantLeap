@@ -99,9 +99,15 @@ public class Character {
 
            cubeAnimate.winAnimation(l3d);
 
-//            Intent i1 = new Intent (context, YouWin.class);
-//            i1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//            context.startActivity(i1);
+            //level up!
+            PlayerPrefs prefs = new PlayerPrefs();
+            int newLevel = prefs.getLevel() + 1;
+            prefs.setLevel(newLevel, context);
+
+            //start the next level
+            Intent i1 = new Intent (context, GameStory.class);
+            i1.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            context.startActivity(i1);
         }
     }
 

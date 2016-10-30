@@ -30,7 +30,7 @@
             android:label="@string/title_activity_create_new_game"
             android:screenOrientation="landscape" />
         <activity
-            android:name=".GameStory1"
+            android:name=".GameStory"
             android:label="@string/title_activity_game_story1"
             android:screenOrientation="landscape" />
         <activity
@@ -39,7 +39,10 @@
             android:screenOrientation="landscape" />
         <activity
             android:name=".YouDied"
-            android:label="@string/title_activity_you_died"></activity>
+            android:label="@string/title_activity_you_died" />
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help" />
     </application>
 
 </manifest>
