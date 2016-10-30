@@ -22,8 +22,8 @@ public class HomeScreen extends Activity {
     }
 
     public void launchPlay(View view) {
-      //  Intent intent = new Intent(this, LoadGame.class);
-      //  startActivity(intent);
+        Intent intent = new Intent(this, LoadGame.class);
+        startActivity(intent);
     }
 
     public void launchNew(View view) {
