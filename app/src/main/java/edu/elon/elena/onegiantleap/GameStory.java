@@ -32,10 +32,11 @@ public class GameStory extends Activity {
         if(level==1){
             layout.setBackgroundResource(R.drawable.story1);
         } else if (level==2){
-            layout.setBackgroundResource(R.drawable.story1);
+            layout.setBackgroundResource(R.drawable.story2_1);
         } else if (level==3){
             layout.setBackgroundResource(R.drawable.story1);
         } else if (level > 3){
+            layout.setBackgroundResource(R.drawable.winscreen);
             System.out.println("You won the game! We will do stuff for this.");
         }
     }

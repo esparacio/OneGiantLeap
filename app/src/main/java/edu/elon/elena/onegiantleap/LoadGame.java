@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 public class LoadGame extends Activity {
 
@@ -34,6 +36,11 @@ public class LoadGame extends Activity {
         }
 
         level = prefs.getLevel();
+
+        //set background based on level
+        StoryMaker maker = new StoryMaker();
+        LinearLayout layout = (LinearLayout)findViewById(R.id.gamescreen);
+        maker.setGameBack(layout,level);
 
         //reads a file and creates the appropriate background for the level
         LevelCreator creator = new LevelCreator();
