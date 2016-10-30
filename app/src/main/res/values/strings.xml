@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">OneGiantLeap</string>
     <string name="title_activity_home_screen">HomeScreen</string>
+    <string name="title_activity_create_new_game">CreateNewGame</string>
+    <string name="title_activity_game_story1">GameStory1</string>
 </resources>
