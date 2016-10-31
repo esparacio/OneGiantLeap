@@ -94,6 +94,8 @@ public class Character {
 
     public void checkWin(){
 
+        System.out.println(xValue + " " + yValue + " " +zValue);
+
         //if you land on the win space, launch the win activity
         if(prevSpace==0x4f1212){
 
@@ -101,6 +103,7 @@ public class Character {
 
             //level up!
             PlayerPrefs prefs = new PlayerPrefs();
+            prefs.readFile(context);
             int newLevel = prefs.getLevel() + 1;
             prefs.setLevel(newLevel, context);
 
@@ -135,8 +138,6 @@ public class Character {
         int x = this.xValue;
         int y = this.yValue;
         int z = this.zValue;
-
-        System.out.println("Platform? "+threeDarray[x][y+1][z]);
 
         //Allows movement as long as it is within the constraints of the
         //cube

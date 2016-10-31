@@ -37,6 +37,12 @@ public class LoadGame extends Activity {
 
         level = prefs.getLevel();
 
+        //if you finished the game, reset
+        if(level>3){
+            prefs.setLevel(1, context);
+            level = prefs.getLevel();
+        }
+
         //set background based on level
         StoryMaker maker = new StoryMaker();
         LinearLayout layout = (LinearLayout)findViewById(R.id.gamescreen);

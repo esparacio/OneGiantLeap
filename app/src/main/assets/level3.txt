@@ -1,11 +1,11 @@
-P,B,B,B,B,B,B,B
-D,B,B,B,B,B,B,B
-B,B,B,B,B,E,B,B
-B,B,B,A,B,B,B,B
-B,B,B,P,B,B,B,B
-F,B,P,P,P,P,P,B
-P,B,B,P,B,B,B,B
-S,P,P,P,B,B,B,B
+P,B,B,B,B,B,B,P
+D,B,B,B,B,B,B,P
+B,B,B,B,B,E,B,P
+B,B,B,A,B,B,B,P
+B,B,B,P,B,B,B,P
+F,B,P,P,P,P,P,P
+P,B,B,P,B,B,B,P
+S,P,P,P,P,P,P,P
 0,0,0,0,0,0,0,~
 P,B,B,B,B,B,B,P
 P,P,B,B,B,B,B,B
@@ -16,7 +16,7 @@ B,B,B,B,B,B,B,B
 B,B,B,B,B,B,F,B
 B,B,P,P,C,P,P,B
 0,0,0,0,0,0,0,~
-P,B,B,P,P,C,P,G
+P,B,B,P,P,C,P,P
 P,B,P,P,B,B,B,P
 B,B,B,P,B,B,B,C
 B,B,B,P,B,B,P,P
@@ -25,7 +25,7 @@ B,B,B,B,P,P,P,B
 B,B,P,B,P,B,B,B
 B,B,P,P,P,P,B,B
 0,0,0,0,0,0,0,~
-P,B,B,P,P,C,P,G
+P,B,B,P,P,C,P,P
 P,B,P,P,B,B,B,P
 B,B,B,P,B,B,B,C
 B,B,B,P,B,B,P,P
@@ -34,7 +34,7 @@ B,B,B,B,P,P,P,B
 B,B,P,B,P,B,B,B
 B,B,P,P,P,P,B,B
 0,0,0,0,0,0,0,~
-P,B,B,P,P,C,P,G
+P,B,B,P,P,C,P,P
 P,B,P,P,B,B,B,P
 B,B,B,P,B,B,B,C
 B,B,B,P,B,B,P,P
@@ -43,7 +43,7 @@ B,B,B,B,P,P,P,B
 B,B,P,B,P,B,B,B
 B,B,P,P,P,P,B,B
 0,0,0,0,0,0,0,~
-P,B,B,P,P,C,P,G
+P,B,B,P,P,C,P,P
 P,B,P,P,B,B,B,P
 B,B,B,P,B,B,B,C
 B,B,B,P,B,B,P,P
@@ -52,7 +52,7 @@ B,B,B,B,P,P,P,B
 B,B,P,B,P,B,B,B
 B,B,P,P,P,P,B,B
 0,0,0,0,0,0,0,~
-P,B,B,P,P,C,P,G
+P,B,B,P,P,C,P,P
 P,B,P,P,B,B,B,P
 B,B,B,P,B,B,B,C
 B,B,B,P,B,B,P,P

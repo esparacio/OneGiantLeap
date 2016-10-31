@@ -34,10 +34,9 @@ public class GameStory extends Activity {
         } else if (level==2){
             layout.setBackgroundResource(R.drawable.story2_1);
         } else if (level==3){
-            layout.setBackgroundResource(R.drawable.story1);
+            layout.setBackgroundResource(R.drawable.story3_1);
         } else if (level > 3){
-            layout.setBackgroundResource(R.drawable.winscreen);
-            System.out.println("You won the game! We will do stuff for this.");
+            layout.setBackgroundResource(R.drawable.story_end1);
         }
     }
 
@@ -48,9 +47,17 @@ public class GameStory extends Activity {
         int maxStory = maker.maxParts(level);
 
         if (storyPart>maxStory){
-            //Launch next level!
-            Intent intent = new Intent(this, LoadGame.class);
-            startActivity(intent);
+            if(level > 3){
+                //back to title screen
+                Intent intent = new Intent(this, TitleScreen.class);
+                startActivity(intent);
+            } else {
+                //Launch next level!
+                Intent intent = new Intent(this, LoadGame.class);
+                startActivity(intent);
+            }
+
+
         } else {
             maker.setBackground(layout, storyPart, level);
         }
