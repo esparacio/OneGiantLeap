@@ -17,7 +17,7 @@ import java.net.UnknownHostException;
  */
 public class A_L3D {
 
-    private final String IP_ADDRESS = "192.168.1.138";
+    private final String IP_ADDRESS = "192.168.1.140";
     private final int PORT = 2222;
 
     protected final int SIDE = 8;
